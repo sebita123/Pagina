@@ -1,0 +1,88 @@
+<html>
+<head>
+<script src="Jqueryui/jquery-1.11.3.min.js"></script>
+<script src="Jqueryui/jquery-ui.js"></script>
+<script src="jquery.shadow/jquery.shadow.js"></script>
+<script src="ruby.js"></script>
+<script src="loongshadow-master/loongshadow.1.0.0.js"></script>
+
+<link rel="stylesheet" type="text/css" href="Ruby.css">
+<link rel="stylesheet" type="text/css" href="jquery.shadow/jquery.shadow.css">
+<link rel="stylesheet" type="text/css" href="Jqueryui/jquery-ui.css">
+<style type="text/css">
+body {
+	background-color: #900;
+	background-image: url(Imagenes/bright_squares.png);
+	background-repeat: repeat;
+}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+
+<center>
+<body>
+<header class="techo">
+
+<strong><aside style="float:left"><img class="query1" src="Imagenes/ruby (1).png" width="250" height="150" /></aside>
+
+
+</strong>
+<div id="derecha"><h1 align="center">lenguaje de programacion Ruby</h1></div>
+</header>
+<nav class="navegar">
+
+<div align="justify"></div>
+<li onclick="unclick('que es')">
+<a>¿Que es ruby?</a><li onclick=unclick('ides')>
+  <a>IDES</a> 
+
+<li onclick="unclick('codigo')"> 
+  <a href="/js/">Código</a> 
+<li >
+  <a href="https://www.ruby-lang.org/es/">Página oficial</a>
+  <li>
+  <a href="http://es.wikipedia.org/wiki/Ruby">Wiki</a>
+  <li>
+  <a href="">Página oficial</a>
+  <li>
+  <a href="/jquery/">contacto</a>
+  <li>
+</li>
+</li>
+</li>
+</li>
+</li>
+</li>
+</li>
+</li>
+</ul>
+</nav>
+<div class="container">
+<aside class="derecha" hidden=""></aside>
+<aside class="izquierda"><center><img src="Imagenes/screenshot_00006.png" width="409" height="281" /></center></aside>
+<aside id="mostrar" hidden=""></aside>
+<p>'</p>
+<p>&nbsp;</p>
+</div>
+<script>
+
+var animacion=document.getElementsByClassName("query1");
+var head=document.getElementsByClassName("techo");
+
+var nav=document.getElementsByClassName("navegar");
+
+var f=document.getElementsByClassName("izquierda");
+setsombra(head);
+setsombra(f);
+setsombra(nav);
+setbounce(animacion,2000);
+Slidedown(nav,2000);
+Fadein(f,2000);
+loong();
+
+
+</script>
+</body></center>
+
+</html>

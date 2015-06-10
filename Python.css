@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+h2{
+	font-size:large;
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+color:#FFF;
+alignment-adjust:central;	
+	}
+h1{
+
+	font-size: large;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #000;
+}
+.cabecera{
+width:1200px;
+height:150px;
+background-color:#ecbe14;
+margin-top:20px;
+}
+
+.desplegar{
+	margin-top:10px;
+	visibility: hidden;
+	width: 150px;
+	height: 60px;
+	background-color: #ecbe14;
+	right: 230px;
+	
+	
+	}
+.imagen{
+	width: 600px;
+	height: 300px;
+	float: left;
+	margin-top: 30px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	}	
+
+.logo{
+	float: left;
+	width: 200px;
+	height: 150px;
+}
+
+.bounce{padding-top:10px;}
+
+.container{
+	width: 1200px;
+	height: 600px;
+	margin-top: 30px;
+
+}
+.inicio{
+	height:60px;
+	border-bottom-width:thick;
+	border-bottom-style:solid;
+	color:#ecbe14;
+	}
+
+.inicio li{
+	width: 150px;
+	height: 60px;
+	background-color: #066d8b;
+	background-image:url(Imagenes/bright_squares.png);
+	float:left;
+	
+	}
+	li ul{
+	display:block;
+	width:100px;
+	height:60px;;
+		
+		}
+	li :hover{
+	font-style:italic;	
+		}	
+.sombre{
+	border:solid;
+	color:#FFF;}
+
+.derecha{
+	float: right;
+	width: 400px;
+	height: 150px;
+	
+	}			
+#primero{
+	width: 150px;
+	height: 60px;
+	background-color: #ecbe14;
+	float: left;
+	
+	}
+
+.parrafo{
+margin: 10px;
+text-align: center;
+width: 560px;
+height: 270px;
+
+
+}	
+.menu{
+	height:65px;
+}
+.actualizable{
+	float: left;
+	width: 590px;
+	height: 300px;
+	background-image: none;
+	background-color: #FFFFF0;
+	border: solid;
+	color: #E9F5EA;
+	margin-top: 30px;
+	text-align: center;
+	list-style-position: inside;
+	list-style-type: circle;
+	}
