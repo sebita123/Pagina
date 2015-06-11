@@ -1,17 +1,65 @@
 <html>
 <head>
+<script src="Jqueryui/jquery-1.11.3.min.js"></script>
+<script src="Jqueryui/jquery-ui.js"></script>
+<script src="jquery.shadow/jquery.shadow.js"></script>
+<script src="Javascript.js"></script>
+<script src="loongshadow-master/loongshadow.1.0.0.js"></script>
 
-
+<link rel="stylesheet" type="text/css" href="jquery.shadow/jquery.shadow.css">
+<link rel="stylesheet" type="text/css" href="Jqueryui/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="Javascript.css">
+<style type="text/css">
+body {
+	background-color: #FFFFFF;
+}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
-
+<center>
 <body>
-<header>
-<div class="icono">
+<header class="primero">
+<div class="icono"><img class="mover" src="Imagenes/logo_javascript.png" width="200" height="150" />
 </div>
-<div class="escritol"></div>
+<div class="escrito1"><h1>Lenguaje de Programación Javascript</h1></div>
 
 </header>
+<nav class="menu">
+<li class="inicio">
+<h1 style="color:#FFF">inicio</h1>
+<li>
+<h3 style="color:#FFF">¿que es javascript?</h3>
+</li>
+<li>
+<h3 style="color:#FFF">IDES</h3>
+</li>
+<li><h3 style="color:#FFF">Código</h3></li>
+<li><h3 style="color:#FFF">Página oficial</h3></li>
+<li><h3 style="color:#FFF">Wiki</h3></li>
+<li><h3 style="color:#FFF">Contacto</h3></li>
+</li>
+</nav>
+<div class="contaner">
+<div class="content">
+  <center><img class="code" src="Imagenes/screenshot_00007.png" width="467" height="310" align="absmiddle" /></center> </div>
+  <div class="aparecer">
+  zxzlxklkxlzkxzlx
+  </div>
+</div>
+<script>
+var a=document.getElementsByClassName("contaner");
+var b=document.getElementsByClassName("primero");
+var c=document.getElementsByClassName("menu");
+var d=document.getElementsByClassName("content");
+sombra(a);
+loongshadow(a);
+loongshadow(b);
+sombra(b);
+sombra(c);
+sombra(d);
+pricipal()
 
+</script>
 </body>
-
+</center>
 </html>

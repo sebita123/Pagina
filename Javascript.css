@@ -1,10 +1,83 @@
 @charset "utf-8";
 /* CSS Document */
-
+header,nav{
+display:block;	
+	}
 .escrito1{
 font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-text-align:left;
+color:#FFF;
+text-align:center;
 width:1000px;
-height:150px;	
+height:150px;
+background-image:url(Imagenes/bright_squares.png);
+float:left;
+	
+}
+.contaner{
+	margin-top:20px;
+width:1200px;
+height:400px;
+background-image:url(Imagenes/bright_squares.png);
+
 	
 	}
+header{
+width:1200px;
+margin-top:20px;	
+height:150px;
+background-color:#999;
+
+	
+	}
+.icono{
+float:left;
+width:200px;
+height:150px;
+background-color:#CCC;
+}
+
+nav{
+width:1200px;
+border-bottom:solid;
+border-bottom-style:outset;
+color:#666;
+height:70px;
+margin-top:20px;
+background-color:#CCC;	
+background-image:url(Imagenes/bright_squares.png);
+	}
+nav li{
+width:150px;
+float:left;
+height:70px;
+text-align:center;	
+	}
+.inicio{
+background-color:#666;	
+	}
+.content{
+margin:20px;
+width:500px;
+background-color:#CCC;
+border-bottom:solid;
+color:#FFF;
+float:left;	
+height:350px;
+border-radius:20px;	
+	}
+.aparecer{
+	margin:20px;
+width:auto;
+background-color:#CCC;
+border-bottom:solid;
+color:#FFF;
+float:left;	
+height:auto;
+border-radius:20px;
+right:100px;
+margin-left:200px;
+	}				
+.code{
+	
+	margin-top:20px;
+	border-radius:25px;}			
