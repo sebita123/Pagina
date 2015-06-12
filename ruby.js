@@ -47,6 +47,9 @@ function unclick(p)	{
 	
 	
 	});	
+	if(p=="cont"){
+		$(r).html("<h2>Email:seebastianaleeandro@live.com</h2>")
+		}
 	if(p=="que es"){
 	
 	$(r).html("<h1> Ruby  </h1><h2>'Es un lenguaje de programacion dinámico, de código abierto, enfocado a en la simplicidad y productividad, soporta orientación a objetos y su sintáxis es fácil de comprender, su creador es Yukihiro “Matz” Matsumoto, mezcló partes de sus lenguajes preferidos(perl,smalltalk,eifel,ada y lisp), para crear este lenguaje que soporta tanto programación funcional como imperativa. '</h2>");
