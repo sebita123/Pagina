@@ -75,8 +75,22 @@ float:left;
 height:auto;
 border-radius:20px;
 right:100px;
-margin-left:200px;
-	}				
+
+	}
+a:link{
+text-decoration:none;
+	}	
+.descricion{
+margin:20px;
+float:left;
+width:auto;
+height:auto;
+background-color:#CCC;
+color:#FFF;
+border-radius:20px;	
+	}
+.margen{
+	margin-top:20px;}						
 .code{
 	
 	margin-top:20px;

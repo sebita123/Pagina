@@ -38,7 +38,21 @@ $(".cabecera").shadow("raised");
 	
 	
 }
-
+function cambio(p){
+	if(p=="des"){
+		$(".parrafo").html("<h1>python es un lenguaje de alto nivel, orientado a objetos y multiparadigma,basado y creado con el propósito de ser un lenguaje simple de implementar y legible,usa tipado dinámico, y soporta multiplés plataformas.</h1>")
+		}
+		
+	if(p=="ides"){
+	$(".parrafo").html("<h1>Pycharm</h1><h1>Sublimetext</h1><h1>Notepadd++</h1><h1>Python Shell</h1><h1>visual IronPython</h1><h1>Jython Netbeans</h1>")	
+		
+		}if(p=="cod"){
+		$(".parrafo").html("<h1>class Saludar</h1><h1>def__init___(self,nombre):</br>self.nombre=nombre</br>print('hola como estás'+self.nombre+ '?')</br>Objeto=Saludar('Sebastian Sanchez')</h1>")
+		}if(p=="cont"){
+		$(".parrafo").html("<h1>Email:seebastianaleejandro@live.com</h1>");
+		}	
+	
+	}
 function moverYefectos(){
 $("body").hide().fadeIn(2000);
 $(".derecha").mouseover(function() {
